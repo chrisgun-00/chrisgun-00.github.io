@@ -11773,3 +11773,9 @@ html {
     background: linear-gradient(45deg, #FFAC45, #FF8C00); /* Orange gradient */
     color: white; /* White text for contrast */
 }
+.carousel-item img {
+    width: 100%;
+    height: 400px; /* Fixed height */
+    object-fit: contain; /* Ensures the entire image is visible */
+    object-position: center; /* Centers the image */
+}
