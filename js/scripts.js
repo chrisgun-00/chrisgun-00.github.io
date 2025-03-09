@@ -4,4 +4,9 @@
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-personal/blob/master/LICENSE)
 */
 // This file is intentionally blank
-// Use this file to add JavaScript to your project
+// Use this file to add JavaScript to your projects
+
+function flipCard(button) {
+    const cardFlip = button.closest('.card-flip');
+    cardFlip.classList.toggle('flipped');
+}
